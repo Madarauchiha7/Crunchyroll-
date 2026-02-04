@@ -2,4 +2,5 @@ services:
 - type: worker
   name: crunchyroll-bot
   env: python
+  runtime: python-3.11
   startCommand: python main.py
